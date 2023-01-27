@@ -301,7 +301,7 @@ collection-cert-pre-processor:
     }
     cert_domain_url = "{{ cert_domain_url }}"
     user_read_api = "/private/user/v1/read"
-    content_read_api = "/content/v3/read"
+    content_read_api = "{{ content_read_api }}"
     service {
       content.basePath = "{{ content_service_base_url }}"
       learner.basePath = "{{ learner_service_base_url }}"
